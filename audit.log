@@ -1,0 +1,737 @@
+2021-12-26 12:04:40 [main] INFO  c.h.HotelBookingApplication - Starting HotelBookingApplication using Java 15 on Asus-Vivobook15 with PID 5344 (C:\Users\ganes\Downloads\com.hotelbooking\com.hotelbooking\target\classes started by ganes in C:\Users\ganes\Downloads\com.hotelbooking\com.hotelbooking)
+2021-12-26 12:04:40 [main] INFO  c.h.HotelBookingApplication - No active profile set, falling back to default profiles: default
+2021-12-26 12:04:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-26 12:04:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 2 JPA repository interfaces.
+2021-12-26 12:04:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-26 12:04:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-26 12:04:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 12:04:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-26 12:04:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2256 ms
+2021-12-26 12:04:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-26 12:04:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-26 12:04:43 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:file:C:/data/sample'
+2021-12-26 12:04:44 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-26 12:04:44 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-26 12:04:44 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-26 12:04:44 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-26 12:04:45 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-26 12:04:45 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-26 12:04:46 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 12:04:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 12:04:47 [main] INFO  c.h.HotelBookingApplication - Started HotelBookingApplication in 6.769 seconds (JVM running for 8.055)
+2021-12-26 12:05:17 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 12:05:17 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-26 12:05:17 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-12-26 12:05:17 [http-nio-8080-exec-1] INFO  c.h.service.HotelOwnerService - Inside getAvailableRooms : 
+2021-12-26 12:05:35 [http-nio-8080-exec-3] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R103 
+2021-12-26 12:05:35 [http-nio-8080-exec-3] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 12:06:04 [http-nio-8080-exec-4] INFO  c.h.service.HotelOwnerService - Entering to insert new room record: 
+2021-12-26 12:06:04 [http-nio-8080-exec-4] INFO  c.h.service.HotelOwnerService - Exiting newRoomAdd
+2021-12-26 12:06:08 [http-nio-8080-exec-5] INFO  c.h.service.HotelOwnerService - Inside getAvailableRooms : 
+2021-12-26 12:06:12 [http-nio-8080-exec-6] INFO  c.h.service.HotelOwnerService - Entering getCustomersStayed : 
+2021-12-26 12:06:17 [http-nio-8080-exec-7] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:NO, wifi:NO, doubleCot:YES} 
+2021-12-26 12:06:17 [http-nio-8080-exec-7] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 12:06:17 [http-nio-8080-exec-7] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 12:06:17 [http-nio-8080-exec-7] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 12:06:20 [http-nio-8080-exec-8] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:no, wifi:no, doubleCot:yes}
+2021-12-26 12:06:20 [http-nio-8080-exec-8] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 12:06:20 [http-nio-8080-exec-8] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 12:06:20 [http-nio-8080-exec-8] INFO  c.h.service.CustomerService - Exiting getRoomsPriceOnCriteria
+2021-12-26 12:06:24 [http-nio-8080-exec-9] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:Ok, wifi:NO, doubleCot:yes} 
+2021-12-26 12:06:24 [http-nio-8080-exec-9] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 12:06:24 [http-nio-8080-exec-9] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 12:06:24 [http-nio-8080-exec-9] ERROR c.h.controller.CustomerController - Exception occured : Given values for facility is invalid , values should be YES or NO
+2021-12-26 12:06:28 [http-nio-8080-exec-2] INFO  c.h.service.CustomerService - Entering getRoomSpec: 
+2021-12-26 12:06:28 [http-nio-8080-exec-2] INFO  c.h.service.CustomerService - Exiting getRoomSpec
+2021-12-26 12:06:33 [http-nio-8080-exec-1] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=null, customerName=LOKI, roomNo=null, age=25, city=VELLORE, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:YES}] 
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:YES} 
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R107]
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=null, customerName=LOKI, roomNo=null, age=25, city=VELLORE, state=TAMILNADU, currentStatus=null]
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Customer is new, Persisting the details..
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 4
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 12:06:43 [http-nio-8080-exec-3] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 12:06:48 [http-nio-8080-exec-4] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 12:07:04 [http-nio-8080-exec-5] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 12:08:06 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-12-26 12:08:06 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-26 12:08:06 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-26 12:08:06 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-26 22:14:03 [main] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 15 on Asus-Vivobook15 with PID 11424 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:14:03 [main] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:14:06 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:14:06 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:14:06 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2021-12-26 22:14:06 [main] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 3.189 seconds (JVM running for 8.431)
+2021-12-26 22:14:06 [main] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:14:06 [main] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:14:06 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:14:06 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:14:06 [main] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 15 on Asus-Vivobook15 with PID 11424 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:14:06 [main] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:14:07 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:14:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:14:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2021-12-26 22:14:07 [main] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 0.782 seconds (JVM running for 9.858)
+2021-12-26 22:15:04 [main] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 15 on Asus-Vivobook15 with PID 7452 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:15:04 [main] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:15:06 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:15:06 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:15:06 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2021-12-26 22:15:06 [main] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 3.325 seconds (JVM running for 8.297)
+2021-12-26 22:15:07 [main] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:15:07 [main] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:15:07 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:15:07 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:15:07 [main] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 15 on Asus-Vivobook15 with PID 7452 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:15:07 [main] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:15:08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:15:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:15:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2021-12-26 22:15:08 [main] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 0.856 seconds (JVM running for 9.776)
+2021-12-26 22:16:05 [main] INFO  c.h.HotelBookingApplication - Starting HotelBookingApplication using Java 15 on Asus-Vivobook15 with PID 12348 (C:\Users\ganes\Downloads\HotelBooking\HotelBooking\target\classes started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:16:05 [main] INFO  c.h.HotelBookingApplication - No active profile set, falling back to default profiles: default
+2021-12-26 22:16:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-26 22:16:06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2021-12-26 22:16:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-26 22:16:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-26 22:16:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 22:16:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-26 22:16:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1439 ms
+2021-12-26 22:16:06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-26 22:16:07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-26 22:16:07 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:file:C:/data/sample'
+2021-12-26 22:16:07 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-26 22:16:07 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-26 22:16:07 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-26 22:16:07 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-26 22:16:08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-26 22:16:08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-26 22:16:08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 22:16:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 22:16:09 [main] INFO  c.h.HotelBookingApplication - Started HotelBookingApplication in 4.341 seconds (JVM running for 5.194)
+2021-12-26 22:16:54 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 22:16:54 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-26 22:16:54 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-12-26 22:17:01 [http-nio-8080-exec-5] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 22:17:29 [http-nio-8080-exec-9] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 22:17:38 [http-nio-8080-exec-2] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 22:17:47 [http-nio-8080-exec-6] INFO  c.h.service.HotelOwnerService - Inside getAvailableRooms : 
+2021-12-26 22:19:59 [Test worker] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 15 on Asus-Vivobook15 with PID 14248 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:19:59 [Test worker] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:20:02 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:20:02 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:20:02 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2021-12-26 22:20:02 [Test worker] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 3.559 seconds (JVM running for 5.342)
+2021-12-26 22:20:02 [Test worker] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:20:02 [Test worker] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:20:02 [Test worker] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:20:02 [Test worker] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:20:02 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest], using SpringBootContextLoader
+2021-12-26 22:20:02 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-26 22:20:02 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest]: HotelOwnerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-26 22:20:02 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hotelbooking.HotelBookingApplication for test class com.hotelbooking.controllerTest.HotelOwnerControllerTest
+2021-12-26 22:20:02 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-12-26 22:20:02 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@363a64df, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20ba76d2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@179ba1ca, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@404a4c2b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25b3d461, org.springframework.test.context.support.DirtiesContextTestExecutionListener@56cc3ae3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1c135401, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@eaa68bc, org.springframework.test.context.event.EventPublishingTestExecutionListener@3501b5d4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@22d8ab5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@41865ad, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@592a121a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@61bda3fe, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@fabf55e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@48d9cc0b]
+2021-12-26 22:20:02 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 15 on Asus-Vivobook15 with PID 14248 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:20:02 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:20:03 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:20:03 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:20:03 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2021-12-26 22:20:03 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 0.76 seconds (JVM running for 6.614)
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomSpec: 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomSpec
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Customer is new, Persisting the details..
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : null
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Rooms with the requested facilities are occupied
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Customer Already Exists, Updating the roomNo and status
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 2
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Customer Already Exists And currently have a Room , adding one more room under his/her name
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 2
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:OK, wifi:YES, doubleCot:NO}
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:20:04 [Test worker] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:YES, wifi:YES, doubleCot:NO}
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:20:04 [Test worker] ERROR c.h.service.CustomerService - No rooms available for given specification to fetch Price
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:YES, wifi:YES, doubleCot:NO}
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsPriceOnCriteria
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:OK, wifi:YES, doubleCot:NO} 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:20:04 [Test worker] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:20:04 [Test worker] ERROR c.h.service.CustomerService - No rooms available for given specification
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R101 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R101 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.HotelOwnerService - Entering to insert new room record: 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting newRoomAdd
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.HotelOwnerService - Inside getAvailableRooms : 
+2021-12-26 22:20:04 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomersStayed : 
+2021-12-26 22:20:49 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-12-26 22:20:49 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-26 22:20:49 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-26 22:20:49 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-26 22:21:01 [main] INFO  c.h.HotelBookingApplication - Starting HotelBookingApplication using Java 15 on Asus-Vivobook15 with PID 13608 (C:\Users\ganes\Downloads\HotelBooking\HotelBooking\target\classes started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:21:01 [main] INFO  c.h.HotelBookingApplication - No active profile set, falling back to default profiles: default
+2021-12-26 22:21:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-26 22:21:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2021-12-26 22:21:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-26 22:21:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-26 22:21:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 22:21:03 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-26 22:21:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1317 ms
+2021-12-26 22:21:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-26 22:21:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-26 22:21:03 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:file:C:/data/sample'
+2021-12-26 22:21:03 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-26 22:21:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-26 22:21:03 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-26 22:21:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-26 22:21:04 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-26 22:21:04 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-26 22:21:05 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 22:21:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 22:21:06 [main] INFO  c.h.HotelBookingApplication - Started HotelBookingApplication in 4.941 seconds (JVM running for 5.746)
+2021-12-26 22:21:11 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-26 22:21:11 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-26 22:21:11 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-12-26 22:21:11 [http-nio-8080-exec-1] INFO  c.h.service.HotelOwnerService - Inside getAvailableRooms : 
+2021-12-26 22:21:14 [main] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 15 on Asus-Vivobook15 with PID 2384 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:21:14 [main] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:21:16 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:21:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:21:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2021-12-26 22:21:16 [main] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 3.196 seconds (JVM running for 8.363)
+2021-12-26 22:21:17 [main] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:21:17 [main] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:21:17 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:21:17 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:21:17 [main] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 15 on Asus-Vivobook15 with PID 2384 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:21:17 [main] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:21:18 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:21:18 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:21:18 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2021-12-26 22:21:18 [main] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 0.771 seconds (JVM running for 9.744)
+2021-12-26 22:22:51 [main] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 15 on Asus-Vivobook15 with PID 9132 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:22:51 [main] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:22:53 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:22:53 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:22:53 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2021-12-26 22:22:53 [main] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 2.253 seconds (JVM running for 4.816)
+2021-12-26 22:22:53 [main] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:22:53 [main] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:22:53 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:22:53 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:22:53 [main] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 15 on Asus-Vivobook15 with PID 9132 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:22:53 [main] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:22:54 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:22:54 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:22:54 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2021-12-26 22:22:54 [main] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 0.697 seconds (JVM running for 5.9)
+2021-12-26 22:32:57 [Test worker] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 1.8.0_252 on Asus-Vivobook15 with PID 7788 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:32:57 [Test worker] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:33:00 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:33:00 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:33:00 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2021-12-26 22:33:00 [Test worker] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 4.643 seconds (JVM running for 7.042)
+2021-12-26 22:33:01 [Test worker] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:33:01 [Test worker] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:33:01 [Test worker] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:33:01 [Test worker] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:33:01 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest], using SpringBootContextLoader
+2021-12-26 22:33:01 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-26 22:33:01 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest]: HotelOwnerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-26 22:33:01 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hotelbooking.HotelBookingApplication for test class com.hotelbooking.controllerTest.HotelOwnerControllerTest
+2021-12-26 22:33:01 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-12-26 22:33:01 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@96534ed3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3a22ffdd, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7f56c0ed, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@a160cc00, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7e8a4347, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40cc8cda, org.springframework.test.context.transaction.TransactionalTestExecutionListener@b51f6a9e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@b49518c2, org.springframework.test.context.event.EventPublishingTestExecutionListener@7b6fe7c1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7bbab967, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@d1e19119, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@c4f60991, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@8aab81dc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@c3d05db5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8c803980]
+2021-12-26 22:33:01 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 1.8.0_252 on Asus-Vivobook15 with PID 7788 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:33:01 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:33:02 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:33:02 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:33:02 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2021-12-26 22:33:02 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 1.041 seconds (JVM running for 8.911)
+2021-12-26 22:33:03 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomSpec: 
+2021-12-26 22:33:03 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomSpec
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Customer is new, Persisting the details..
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : null
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Rooms with the requested facilities are occupied
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Customer Already Exists, Updating the roomNo and status
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 2
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Customer Already Exists And currently have a Room , adding one more room under his/her name
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 2
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:OK, wifi:YES, doubleCot:NO}
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:33:04 [Test worker] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:YES, wifi:YES, doubleCot:NO}
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:33:04 [Test worker] ERROR c.h.service.CustomerService - No rooms available for given specification to fetch Price
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:YES, wifi:YES, doubleCot:NO}
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsPriceOnCriteria
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:OK, wifi:YES, doubleCot:NO} 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:33:04 [Test worker] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:33:04 [Test worker] ERROR c.h.service.CustomerService - No rooms available for given specification
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R101 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R101 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.HotelOwnerService - Entering to insert new room record: 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting newRoomAdd
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.HotelOwnerService - Inside getAvailableRooms : 
+2021-12-26 22:33:04 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomersStayed : 
+2021-12-26 22:34:48 [Test worker] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 1.8.0_252 on Asus-Vivobook15 with PID 6284 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:34:48 [Test worker] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:34:52 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:34:52 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:34:52 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2021-12-26 22:34:52 [Test worker] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 4.935 seconds (JVM running for 7.244)
+2021-12-26 22:34:53 [Test worker] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:34:53 [Test worker] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:34:53 [Test worker] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:34:53 [Test worker] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:34:53 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest], using SpringBootContextLoader
+2021-12-26 22:34:53 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-26 22:34:53 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest]: HotelOwnerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-26 22:34:53 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hotelbooking.HotelBookingApplication for test class com.hotelbooking.controllerTest.HotelOwnerControllerTest
+2021-12-26 22:34:53 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-12-26 22:34:53 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@9f161fc8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@fa1642bd, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6e231486, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@37d92715, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@9096c2de, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5cb24589, org.springframework.test.context.transaction.TransactionalTestExecutionListener@aa11e6c4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@b0475146, org.springframework.test.context.event.EventPublishingTestExecutionListener@4be2734a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5052dd80, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1bfdd2e3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@ea7ab4de, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ab39f570, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7a3db4f2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@f8c19056]
+2021-12-26 22:34:53 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 1.8.0_252 on Asus-Vivobook15 with PID 6284 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:34:53 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:34:54 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:34:54 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:34:54 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2021-12-26 22:34:54 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 0.905 seconds (JVM running for 8.912)
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomSpec: 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomSpec
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Customer is new, Persisting the details..
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : null
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Rooms with the requested facilities are occupied
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Customer Already Exists, Updating the roomNo and status
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 2
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Customer Already Exists And currently have a Room , adding one more room under his/her name
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 2
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:OK, wifi:YES, doubleCot:NO}
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:34:55 [Test worker] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:YES, wifi:YES, doubleCot:NO}
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:34:55 [Test worker] ERROR c.h.service.CustomerService - No rooms available for given specification to fetch Price
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:YES, wifi:YES, doubleCot:NO}
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsPriceOnCriteria
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:OK, wifi:YES, doubleCot:NO} 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:34:55 [Test worker] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:34:55 [Test worker] ERROR c.h.service.CustomerService - No rooms available for given specification
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R101 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R101 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.HotelOwnerService - Entering to insert new room record: 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting newRoomAdd
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.HotelOwnerService - Inside getAvailableRooms : 
+2021-12-26 22:34:55 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomersStayed : 
+2021-12-26 22:36:43 [Test worker] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 1.8.0_252 on Asus-Vivobook15 with PID 12812 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:36:43 [Test worker] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:36:47 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:36:47 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:36:47 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2021-12-26 22:36:47 [Test worker] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 5.066 seconds (JVM running for 7.293)
+2021-12-26 22:36:48 [Test worker] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:36:48 [Test worker] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:36:48 [Test worker] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:36:48 [Test worker] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:36:48 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest], using SpringBootContextLoader
+2021-12-26 22:36:48 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-26 22:36:48 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest]: HotelOwnerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-26 22:36:48 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hotelbooking.HotelBookingApplication for test class com.hotelbooking.controllerTest.HotelOwnerControllerTest
+2021-12-26 22:36:48 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-12-26 22:36:48 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@cf181e50, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47b1d8d8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2a925069, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@9a5e2b3e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@974dfed3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@d2856dc6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@584d3822, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62bffa05, org.springframework.test.context.event.EventPublishingTestExecutionListener@7448036e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@f8cc0fa1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@af657c38, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5afd10e5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@dd53fad4, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@e5f762ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@d65efd26]
+2021-12-26 22:36:48 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 1.8.0_252 on Asus-Vivobook15 with PID 12812 (started by ganes in C:\Users\ganes\Downloads\HotelBooking\HotelBooking)
+2021-12-26 22:36:48 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:36:49 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:36:49 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:36:49 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2021-12-26 22:36:49 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 0.807 seconds (JVM running for 8.761)
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomSpec: 
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomSpec
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Customer is new, Persisting the details..
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : null
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Rooms with the requested facilities are occupied
+2021-12-26 22:36:49 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Customer Already Exists, Updating the roomNo and status
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 2
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Customer Already Exists And currently have a Room , adding one more room under his/her name
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 2
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:OK, wifi:YES, doubleCot:NO}
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:36:50 [Test worker] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:YES, wifi:YES, doubleCot:NO}
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:36:50 [Test worker] ERROR c.h.service.CustomerService - No rooms available for given specification to fetch Price
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:YES, wifi:YES, doubleCot:NO}
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsPriceOnCriteria
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:OK, wifi:YES, doubleCot:NO} 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:36:50 [Test worker] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:36:50 [Test worker] ERROR c.h.service.CustomerService - No rooms available for given specification
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R101 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R101 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.HotelOwnerService - Entering to insert new room record: 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting newRoomAdd
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.HotelOwnerService - Inside getAvailableRooms : 
+2021-12-26 22:36:50 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomersStayed : 
+2021-12-26 22:38:48 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-12-26 22:38:48 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-26 22:38:48 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-26 22:38:48 [RMI TCP Connection(27)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-26 22:50:40 [main] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 15 on Asus-Vivobook15 with PID 12552 (started by ganes in C:\Users\ganes\git\HotelBooking)
+2021-12-26 22:50:40 [main] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:50:42 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:50:42 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:50:42 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2021-12-26 22:50:42 [main] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 2.261 seconds (JVM running for 4.766)
+2021-12-26 22:50:42 [main] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:50:42 [main] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:50:42 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:50:42 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:50:42 [main] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 15 on Asus-Vivobook15 with PID 12552 (started by ganes in C:\Users\ganes\git\HotelBooking)
+2021-12-26 22:50:42 [main] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:50:43 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:50:43 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:50:43 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2021-12-26 22:50:43 [main] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 0.696 seconds (JVM running for 5.841)
+2021-12-26 22:51:30 [main] INFO  c.h.HotelBookingApplication - Starting HotelBookingApplication using Java 15 on Asus-Vivobook15 with PID 9096 (C:\Users\ganes\git\HotelBooking\target\classes started by ganes in C:\Users\ganes\git\HotelBooking)
+2021-12-26 22:51:30 [main] INFO  c.h.HotelBookingApplication - No active profile set, falling back to default profiles: default
+2021-12-26 22:51:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-26 22:51:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2021-12-26 22:51:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-26 22:51:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-26 22:51:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-26 22:51:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-26 22:51:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1395 ms
+2021-12-26 22:51:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-26 22:51:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-26 22:51:32 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:file:C:/data/sample'
+2021-12-26 22:51:32 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-26 22:51:32 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-26 22:51:32 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-26 22:51:33 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-26 22:51:33 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-26 22:51:33 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-26 22:51:34 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 22:51:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 22:51:34 [main] INFO  c.h.HotelBookingApplication - Started HotelBookingApplication in 4.232 seconds (JVM running for 5.034)
+2021-12-26 22:51:50 [main] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 15 on Asus-Vivobook15 with PID 4872 (started by ganes in C:\Users\ganes\git\HotelBooking)
+2021-12-26 22:51:50 [main] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:51:52 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:51:52 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:51:52 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2021-12-26 22:51:52 [main] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 3.241 seconds (JVM running for 8.002)
+2021-12-26 22:51:53 [main] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:51:53 [main] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:51:53 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:51:53 [main] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:51:53 [main] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 15 on Asus-Vivobook15 with PID 4872 (started by ganes in C:\Users\ganes\git\HotelBooking)
+2021-12-26 22:51:53 [main] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:51:54 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:51:54 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:51:54 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2021-12-26 22:51:54 [main] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 0.827 seconds (JVM running for 9.451)
+2021-12-26 22:52:41 [Test worker] INFO  c.h.c.CustomerControllerTest - Starting CustomerControllerTest using Java 1.8.0_252 on Asus-Vivobook15 with PID 12072 (started by ganes in C:\Users\ganes\git\HotelBooking)
+2021-12-26 22:52:41 [Test worker] INFO  c.h.c.CustomerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:52:44 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:52:44 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:52:44 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 16 ms
+2021-12-26 22:52:44 [Test worker] INFO  c.h.c.CustomerControllerTest - Started CustomerControllerTest in 4.194 seconds (JVM running for 6.257)
+2021-12-26 22:52:44 [Test worker] INFO  c.h.c.CustomerControllerTest - output : {"roomNo":"R107","description":"Room with the requested facilities is booked successfully, Your Room No : R107 Price : 2000 Per Night"}
+2021-12-26 22:52:44 [Test worker] ERROR c.h.controller.CustomerController - BadRequestException occured : 
+2021-12-26 22:52:44 [Test worker] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:52:45 [Test worker] ERROR c.h.controller.CustomerController - Exception occured : 
+2021-12-26 22:52:45 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest], using SpringBootContextLoader
+2021-12-26 22:52:45 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-26 22:52:45 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hotelbooking.controllerTest.HotelOwnerControllerTest]: HotelOwnerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-12-26 22:52:45 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hotelbooking.HotelBookingApplication for test class com.hotelbooking.controllerTest.HotelOwnerControllerTest
+2021-12-26 22:52:45 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-12-26 22:52:45 [Test worker] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ec666d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b3e90b07, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@41a38d46, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@f073ffa7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@d54704e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6bb36506, org.springframework.test.context.transaction.TransactionalTestExecutionListener@e26847f6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6bd55d6a, org.springframework.test.context.event.EventPublishingTestExecutionListener@7a809293, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@ee5e31de, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5b37a919, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@372f58d4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@406c5328, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@c2230fae, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@e2b5d8aa]
+2021-12-26 22:52:45 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - Starting HotelOwnerControllerTest using Java 1.8.0_252 on Asus-Vivobook15 with PID 12072 (started by ganes in C:\Users\ganes\git\HotelBooking)
+2021-12-26 22:52:45 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - No active profile set, falling back to default profiles: default
+2021-12-26 22:52:45 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-12-26 22:52:45 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-12-26 22:52:45 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2021-12-26 22:52:45 [Test worker] INFO  c.h.c.HotelOwnerControllerTest - Started HotelOwnerControllerTest in 0.85 seconds (JVM running for 7.732)
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomSpec: 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomSpec
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Customer is new, Persisting the details..
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : null
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Rooms with the requested facilities are occupied
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Customer Already Exists, Updating the roomNo and status
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 2
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering bookRooms with booking request : BookingRequestModel [customer=CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null], facilities={airConditioner:YES, wifi:YES, doubleCot:NO}] 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Availables RoomNo's for the given specification : [R101]
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getCutomerIfExists with Customer detail : CustomerModel [customerId=1, customerName=STEVE, roomNo=null, age=23, city=CHENNAI, state=TAMILNADU, currentStatus=null]
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getCutomerIfExists
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Customer Already Exists And currently have a Room , adding one more room under his/her name
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering updateRoomForBooking with customerId : 2
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting updateRoomForBooking
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting bookRooms
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:OK, wifi:YES, doubleCot:NO}
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:52:46 [Test worker] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:YES, wifi:YES, doubleCot:NO}
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:52:46 [Test worker] ERROR c.h.service.CustomerService - No rooms available for given specification to fetch Price
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsPriceOnCriteria with facilities: {airConditioner:YES, wifi:YES, doubleCot:NO}
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsPriceOnCriteria
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:OK, wifi:YES, doubleCot:NO} 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:52:46 [Test worker] ERROR c.h.service.CustomerService - Bad Request not a expected value
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:52:46 [Test worker] ERROR c.h.service.CustomerService - No rooms available for given specification
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnCriteria with facilities :{airConditioner:YES, wifi:YES, doubleCot:NO} 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Entering getRoomsBasedOnFacilities: 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnFacilities
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.CustomerService - Exiting getRoomsBasedOnCriteria
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R101 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomerDetailsforRoom with room no :R101 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting getCustomerDetailsforRoom : 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.HotelOwnerService - Entering to insert new room record: 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.HotelOwnerService - Exiting newRoomAdd
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.HotelOwnerService - Fetching all the customer details
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.HotelOwnerService - Inside getAvailableRooms : 
+2021-12-26 22:52:46 [Test worker] INFO  c.h.service.HotelOwnerService - Entering getCustomersStayed : 
